@@ -28,7 +28,7 @@ void setup() {
   pinMode(relay_3_pin, OUTPUT);
   pinMode(relay_4_pin, OUTPUT);
 
-  digitalWrite(relay_1_pin, HIGH); //fan on
+  digitalWrite(relay_1_pin, LOW); //fan on
   digitalWrite(relay_2_pin, HIGH); //heat lamp off
   digitalWrite(relay_3_pin, HIGH); //solenoid off
   digitalWrite(relay_4_pin, HIGH); //kill switch off

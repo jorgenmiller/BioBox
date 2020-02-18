@@ -24,21 +24,21 @@ void setup() {
   pinMode(relay_4_pin, OUTPUT);
 
   digitalWrite(relay_1_pin, LOW); //fan on
-  digitalWrite(relay_2_pin, LOW); //heat lamp off
-  digitalWrite(relay_3_pin, LOW); //solenoid off
-  digitalWrite(relay_4_pin, LOW); //kill switch off
+  digitalWrite(relay_2_pin, HIGH); //heat lamp off
+  digitalWrite(relay_3_pin, HIGH); //solenoid off
+  digitalWrite(relay_4_pin, HIGH); //kill switch off
 
   Serial.begin(9600);
 }
 
 void loop() {
-  digitalWrite(relay_2_pin, HIGH);
+  digitalWrite(relay_4_pin, LOW);
   Serial.println("HIGH");
   digitalWrite(led, HIGH);
-  delay(5000); 
+  delay(100); 
   
-  digitalWrite(relay_2_pin, LOW);
+  digitalWrite(relay_4_pin, HIGH);
   Serial.println("LOW");
   digitalWrite(led, LOW);
-  delay(1000);
+  delay(500);
 }
