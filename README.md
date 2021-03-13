@@ -2,7 +2,7 @@
 
 Jørgen Miller and Charlie Giglio
 
-A project for the Deep Space Food Challenge. More information at [deepspacefoodchallenge.org](https://www.deepspacefoodchallenge.org).
+A project for NASA's & CSA's Deep Space Food Challenge. More information at [deepspacefoodchallenge.org](https://www.deepspacefoodchallenge.org).
 
 Work on this project is ongoing. This repository holds current files for the BioBox simulation, a part of the project that will show how sustainable the system is in the long term and how it can adapt to changes.
 
