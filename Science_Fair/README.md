@@ -4,7 +4,7 @@ Jørgen Miller and Charlie Giglio
 
 BioBox began as a project for the 2020 Frederick County Virtual Science & Engineering Fair.
 
-This repository holds past files for the physical BioBox prototype. It used an Arduino to measure sensor outputs and sent them to a Raspberry Pi to be written to a file. This repository holds the Arduino code.
+This repository holds past files for the physical BioBox prototype. We used an Arduino to measure sensor outputs and control the BioBox environment to regulate the Shrimp and BSF Larvae chambers. The data was logged to a Raspberry Pi. This repository holds the Arduino code.
 
 
 ### Presentation
